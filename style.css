@@ -1,0 +1,93 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    padding: 20px;
+    background: linear-gradient(to bottom,#333, black);
+    overflow-x: hidden;
+}
+
+/* Header / Navigation styles */
+header {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Section styling */
+section {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    scroll-margin-top: 60px;
+}
+
+/* Styling for headings */
+h2 {
+    font-size: 1.8em;
+    color: rgb(23, 23, 152);
+    margin-bottom: 10px;
+}
+
+/* About Me Section */
+#about-me {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+/* List Styling for Projects, Skills, etc. */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+/* Contact Info Section */
+#contact-info a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+#contact-info a:hover {
+    text-decoration: underline;
+}
